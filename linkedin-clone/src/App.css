@@ -1,0 +1,14 @@
+.app {
+    background-color: #f3f2ef;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+
+.app__body {
+    /* setting the parent container display to flex  */
+    /* Then set the child components sidebar: flex:0.2, feed : flex-:0.6 and widgets: flex:0.2 respectively  */
+    /* this will divide the page properly for the 3 sections and also responsive  */
+    display: flex;
+}
