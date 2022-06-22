@@ -1,0 +1,107 @@
+.hero-section-wrapper {
+    position: relative;
+}
+
+.hero-section {
+    min-height: 100vh;
+    text-align: center;
+}
+
+.hero-heading {
+    font-size: 106px;
+    font-weight: 700;
+}
+
+.hero-subheading {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 35px 58px;
+    line-height: 38px;
+}
+
+
+/* style for claim label  */
+.hero-label {
+    background-color: var(--bg-gray);
+    width: 100%;
+    position: absolute;
+    height: 72px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.claim-arrow {
+    height: 11px;
+    margin: 7px 0px 0px 8px;
+
+}
+
+.claim-text {
+    color: var(--link-blue);
+    margin-left: 17px;
+}
+
+/* for sizes less than laptop size but greater than tablet size */
+@media all and (max-width:1279px) {
+    .hero-heading {
+        font-size: 82px;
+        line-height: 92px;
+    }
+
+    .hero-subheading {
+        font-size: 25px;
+    }
+
+    .claim-text {
+        margin-left: 15px;
+    }
+
+    /* .hero-label { */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* line-height: 30px; */
+    /* } */
+}
+
+/* for screen less than tab size */
+@media all and (max-width:767px) {
+    .hero-section {
+        align-items: flex-start;
+        text-align: left;
+        min-height: 70vh;
+        /* added */
+        padding-top: 65px;
+
+
+    }
+
+    .hero-heading {
+        font-size: 55px;
+        line-height: 47.5px;
+        width: 270px;
+        margin-top: 60px;
+        /* text-align: start; */
+    }
+
+    .hero-subheading {
+        font-size: 16px;
+        line-height: 22px;
+        margin: 35px 0px;
+
+    }
+
+    .claim-arrow {
+        height: 6px;
+        margin: 2px 0px 0px 3px;
+    }
+
+    .hero-label {
+        display: flex;
+        flex-direction: column;
+        line-height: 20px;
+        height: 55px;
+        font-size: 13px;
+    }
+
+}
