@@ -1,0 +1,9 @@
+.product-show {
+    width: 100vw;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/video-bg.png);
+    background-size: cover;
+    background-position: right top;
+}
